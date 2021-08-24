@@ -3,21 +3,18 @@
     margin: 0;
 }
 html {
-    background: rgb(185, 100, 100);
+    background: url(../images/bg8.png);
+    background-position: 50% 80%;
     line-height: 2rem;
 }
 body{
     font-family: 'Raleway', sans-serif;
-    color: rgb(32, 32, 32);
-}
-.prof-box{
-    width: 450px;
-    height: 100%;
-    background-color: #CDB599FF;
-    padding: 40px;
-    margin: 0 auto;
-    margin-top: 50px;
+    color: #000000;
+    justify-content: center;
     text-align: center;
+    padding: 40px 40px 0px 40px;
+    margin: 0 auto;
+    margin-top: 2rem;
     box-sizing: border-box;
 }
 .prof-pic{
@@ -30,7 +27,7 @@ body{
 }
 .profile p{
     font-size: 1.3rem;
-    color: rgb(150, 78, 78);
+    color: rgb(7, 12, 7);
 }
 .fa-at{
     color: black;
@@ -71,7 +68,7 @@ h1{
     line-height: 1.1em;
 }
 .skills{
-    margin-top: 1.3rem;
+    margin-top: 3rem;
     line-height: 1.2rem;
     text-align: left;
 }
@@ -92,7 +89,7 @@ li{
     text-align: left;
 }
 .education h2{
-    margin-top: 1.2rem;
+    margin-top: 3rem;
     margin-bottom: -0.8rem;
     text-align: center;
 }
@@ -101,8 +98,10 @@ li{
     line-height: 1.1rem;
 }
 .hobbies{
+    margin-top: 3rem;
     line-height: 1.1rem;
     text-align: center;
+    margin-bottom: 3rem;
 }
 .hobbies h2{
     margin-bottom: 0.5rem;
@@ -114,9 +113,11 @@ li{
 }
 .footer p{
     margin-right: 2rem;
+    text-align: left;
+
 }
 .footer img{
     margin-left: 0.5rem;
-    height: 50px;
+    height: 25px;
     width: 100px;
 }
